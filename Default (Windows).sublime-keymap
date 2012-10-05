@@ -1,0 +1,6 @@
+[
+	{
+		"keys": ["ctrl+b"],
+		"command": "bidi"
+	}
+]

@@ -1,0 +1,6 @@
+[
+	{
+		"caption": "Bidirectional text",
+		"command": "run_bidi"
+	}
+]
