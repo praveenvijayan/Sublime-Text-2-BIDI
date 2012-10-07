@@ -1,7 +1,7 @@
 Bidirectional text support for Sublime Text 2
 ===================
 
-Currently Sublime Text 2 is not supporting bidirectional languages like Arabic, Hebrew etc.. Using this plugin you can view bidirectional texts. This plugin uses Pythons BiDi implimentation found at https://github.com/MeirKriheli/python-bidi.
+Currently Sublime Text 2 is not supporting bidirectional languages like Arabic, Hebrew etc.. Using this plugin you can view bidirectional texts.
 
 Please note, I don't know Arabic or Hebrew. I have checked the results by pattern matching. Its a starting point. 
 
@@ -13,8 +13,8 @@ Clone it into Sublime Package directory.
 
 <img alt="" src="https://lh6.googleusercontent.com/-zm8xnRDkluI/UG9mLrQYgPI/AAAAAAAAEm0/8qOUUMngOlw/s800/rtl-sublime-text.jpg" title="Sublime Text 2 - BiDi Plugin" class="alignnone" width="800" height="569">
 
-Set Font face to any Arabic supporting font (Arial) in user settings. 
-<img alt="" src="https://lh3.googleusercontent.com/-l_CN_p6kJKM/UHHVlhvTU5I/AAAAAAAAEnY/8fLi3mbYoUU/s412/sublime-text2-user-pref-menu.jpg" title="Sublime text 2 user settings" class="alignnone" width="412" height="321">
+Set Font face to any Arabic supporting font (Arial) in user settings. <br>
+<img alt="" src="https://lh3.googleusercontent.com/-l_CN_p6kJKM/UHHVlhvTU5I/AAAAAAAAEnY/8fLi3mbYoUU/s412/sublime-text2-user-pref-menu.jpg" title="Sublime text 2 user settings" class="alignnone" width="412" height="321"> <br>
 
 <img alt="" src="https://lh6.googleusercontent.com/-VM_A9JCJhT0/UHHVlFSsMNI/AAAAAAAAEnU/CXvpyMjdv2U/s516/sublime-text2-user-pref.jpg" title="Sublime text 2 user settings" class="alignnone" width="516" height="153">
 
@@ -49,7 +49,7 @@ Follow for updates :  <a href="http://twitter.com/praveen_vijaya">@praveen_vijay
 
 Thanks
 ----
-https://github.com/MeirKriheli/python-bidi
+https://github.com/MeirKriheli/python-bidi <br>
 https://github.com/mpcabd/python-arabic-reshaper
 
 
