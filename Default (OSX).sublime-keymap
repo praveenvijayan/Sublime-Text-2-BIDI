@@ -1,6 +1,6 @@
 [
 	{
 		"keys": ["ctrl+b"],
-		"command": "bidi",
+		"command": "bidi"
 	}
 ]
