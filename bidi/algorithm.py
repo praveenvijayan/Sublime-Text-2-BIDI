@@ -21,7 +21,7 @@ from unicodedata import bidirectional, mirrored
 import inspect
 import sys
 from collections import deque
-from mirror import MIRRORED
+from bidi.mirror import MIRRORED
 
 # Some definitions
 PARAGRAPH_LEVELS = { 'L':0, 'AL':1, 'R': 1 }
@@ -38,8 +38,8 @@ X2_X5_MAPPINGS = {
 }
 
 # Added 'B' so X6 won't execute in that case and X8 will run it's course
-X6_IGNORED = X2_X5_MAPPINGS.keys() + ['BN', 'PDF', 'B']
-X9_REMOVED = X2_X5_MAPPINGS.keys() + ['BN', 'PDF']
+X6_IGNORED = list(X2_X5_MAPPINGS.keys()) + ['BN', 'PDF', 'B']
+X9_REMOVED = list(X2_X5_MAPPINGS.keys()) + ['BN', 'PDF']
 
 _embedding_direction = lambda x:('L', 'R')[x % 2]
 
@@ -597,7 +597,7 @@ def get_display(unicode_or_str, encoding='utf-8', upper_is_rtl=False,
     storage = get_empty_storage()
 
     # utf-8 ? we need unicode
-    if isinstance(unicode_or_str, unicode):
+    if isinstance(unicode_or_str, str):
         text = unicode_or_str
         decoded = False
     else:
