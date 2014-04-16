@@ -21,7 +21,16 @@ from unicodedata import bidirectional, mirrored
 import inspect
 import sys
 from collections import deque
-from bidi.mirror import MIRRORED
+
+try:
+
+    # Python 3
+
+    from .mirror import MIRRORED
+except ValueError:
+
+    # Python 2
+    from bidi.mirror import MIRRORED
 
 # Some definitions
 PARAGRAPH_LEVELS = { 'L':0, 'AL':1, 'R': 1 }
