@@ -2,5 +2,9 @@
 	{
 		"caption": "Bidirectional text",
 		"command": "run_bidi"
+	},
+	{
+		"caption": "Bidirectional selection",
+		"command": "run_bidiselection"
 	}
 ]

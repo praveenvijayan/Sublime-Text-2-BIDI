@@ -1,7 +1,7 @@
-Bidirectional text support for Sublime Text 2
+Bidirectional text support for Sublime Text 3
 ===================
 
-Currently Sublime Text 2 is not supporting bidirectional languages like Arabic, Hebrew etc.. Using this plugin you can view bidirectional texts.
+Currently Sublime Text 3 is not supporting bidirectional languages like Arabic, Hebrew etc.. Using this plugin you can view bidirectional texts.
 
 Please note, I don't know Arabic or Hebrew. I have checked the results by pattern matching. Its a starting point. 
 

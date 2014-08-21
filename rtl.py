@@ -17,7 +17,16 @@ except ValueError:
 class bidiCommand(sublime_plugin.TextCommand):
 	def run(self, edit):
 		region = sublime.Region(0, self.view.size())
-		txt = self.view.substr(region)
-		reshaped_text = reshape(txt)
-		bdiText = get_display(reshaped_text)
-		self.view.replace(edit, region, bdiText)
+		bidiRegion(region, self.view, edit)
+
+class bidiselectionCommand(sublime_plugin.TextCommand):
+	def run(self, edit):
+		selectionSet = self.view.sel()
+		for selectionRegion in selectionSet:
+			bidiRegion(selectionRegion, self.view, edit)
+
+def bidiRegion(region, view, edit):
+	txt = view.substr(region)
+	reshaped_text = reshape(txt)
+	bdiText = get_display(reshaped_text)
+	view.replace(edit, region, bdiText)

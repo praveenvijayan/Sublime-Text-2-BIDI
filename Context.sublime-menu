@@ -1,3 +1,4 @@
 [
-    { "command": "bidi", "caption":"Bidirectional text" }
+    { "command": "bidi", "caption":"Bidirectional text" },
+    { "command": "bidiselection", "caption":"Bidirectional Selection" }
 ]

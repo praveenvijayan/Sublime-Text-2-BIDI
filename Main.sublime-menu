@@ -10,6 +10,11 @@
                 "caption": "Bidirectional text",
                 "mnemonic": "B",
                 "command": "bidi"
+            },
+            {
+                "caption": "Bidirectional selection",
+                "mnemonic": "S",
+                "command": "bidiselection"
             }
         ]
     }
